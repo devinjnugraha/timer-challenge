@@ -11,7 +11,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background: radial-gradient(#186a5e, #053339);
 	color: #e1eeeb;
-	height: 100vh;
+	max-height: 100vh;
 }
 
 #content {
@@ -67,7 +67,7 @@ header p {
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 0;
 	padding: 0.25rem;
-	color: #d1f0ec;
+	color: #c1e2dd;
 }
 
 #player button {
@@ -75,7 +75,7 @@ header p {
 	background-color: #54a399;
 	border: 1px solid #54a399;
 	padding: 0.4rem 1rem;
-	color: #061e1a;
+	color: #c1e2dd;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
@@ -87,10 +87,10 @@ header p {
 
 #challenges {
 	max-width: 50rem;
-	margin: 3rem auto;
+	margin: 2rem auto;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2rem;
+	gap: 1rem;
 }
 
 .challenge {
@@ -99,8 +99,8 @@ header p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 2rem;
-	margin: 2rem auto;
+	padding: 1rem;
+	margin: 1rem auto;
 	background: linear-gradient(#4df8df, #4df0f8);
 	color: #221c18;
 	box-shadow: 0 2px 8px rgba(35, 34, 34, 0.6);
